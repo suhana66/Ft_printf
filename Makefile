@@ -1,8 +1,5 @@
 NAME := libftprintf.a
-SRC := ft_print_chars.c \
-	ft_print_int.c \
-	ft_print_unsigned.c \
-	ft_printf.c
+SRC := ft_printf.c
 OBJ := $(SRC:%.c=%.o)
 CC := cc
 CFLAGS := -Wall -Wextra -Werror
